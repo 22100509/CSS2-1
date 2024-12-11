@@ -1,13 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #navList {
     display: inline-block;
     list-style-type: none;
-    margin: 12px 80px;
+    margin: 12px 180px;
 }
 
 #nav {
-   margin-left: 120px;
-   display: inline-block;
-   width: 980px;
+    margin: 12px 80px;
+    display: inline-block;
+    
 }
 
 #Product, #Services, #Resources, #Offers {
@@ -34,8 +40,6 @@
     border: 1px solid #AC00FF;
     font-size: 14px;
     text-align: right;
-    margin-right: 80px;
-    margin-left: 100px;
     
 }
 
@@ -91,12 +95,16 @@
     color: #4D3491;
 }
 
-#cards {
-    display: flex;
-    width: 1200px;
-    margin-bottom: -10px;
-    margin-left: 250px;
+#imgDiv{
+   margin-left: 610px;
+   max-width: 1311px;
 }
+
+#cards {
+    width: 100%;
+    margin-top: -130px;
+}
+
 
 
 
